@@ -6,7 +6,6 @@ import time
 window = Tk()
 window.title("Readability Test")
 window.resizable(False, False)
-window.iconbitmap("C:/Windows/book.ico")
 text_input = Text(window, borderwidth = 4, cursor = "spraycan")
 text_input.grid(columnspan = 8, rowspan = 8)
 
